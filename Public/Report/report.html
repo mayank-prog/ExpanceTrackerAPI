@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="border border-success m-4 p-4">
+  <!-- NavBar start -->
+<div class="container p-4 border-bottom">
+  <ul class="nav nav-pills nav-justified">
+    <li class="nav-item">
+      <a class="nav-link " href="/home/home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active " href="/Report/report.html">Report</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link "  href="/Leaderboard/leaderboard.html">Leaderboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="/DownloadReport/download.html">Download's</a>
+    </li>
+  </ul>
+
+</div>
+  <!-- NavBar End -->
+
+  <div class="container text-center">
+     <div class="p-4" id="pay-btn"></div>
+  </div>  
+      <hr />
+   <div class="text-center" id="report-text"></div>
+   <div class="container text-center">
+      <div id="leaderboard-table"></div>
+  </div>  
+ 
+
+
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js">
+    
+  </script>
+
+  <script src="report.js"></script>
+
+</body>
+
+</html>
